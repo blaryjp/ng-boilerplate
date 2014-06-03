@@ -1,0 +1,12 @@
+*.sw*
+*~
+.tmp/
+tmp/
+.sass-cache/
+dist/
+build/
+bin/
+node_modules/
+vendor/
+components/
+bower_components/
