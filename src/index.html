@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html data-ng-app="ngApp" data-ng-controller="AppCtrl">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title data-ng-bind="pageTitle"></title>
+    <link rel="icon" href="assets/favicon.ico" />
+
+    <!-- font awesome from BootstrapCDN -->
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+    <!-- compiled CSS --><% styles.forEach( function ( file ) { %>
+    <link rel="stylesheet" type="text/css" href="<%= file %>" /><% }); %>
+
+    <!--[if lt IE 9]>
+    <script src="vendor/es5-shim/es5-shim.min.js"></script>
+    <script src="vendor/json3/lib/json3.min.js"></script>
+    <![endif]-->
+
+  </head>
+  <body>
+
+    <div class="container" data-ui-view="main"></div>
+
+    <!-- compiled JavaScript --><% scripts.forEach( function ( file ) { %>
+    <script type="text/javascript" src="<%= file %>"></script><% }); %>
+
+  </body>
+</html>

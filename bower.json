@@ -1,0 +1,24 @@
+{
+  "name": "@@APPNAME@@",
+  "author": "Jean-Philippe Blary (@blary_jp)",
+  "version": "0.0.0",
+  "homepage": "https://github.com/blaryjp/@@APPNAME@@",
+  "licenses": {
+    "type": "MIT",
+    "url": "https://raw.github.com/blaryjp/@@APPNAME@@/master/LICENSE"
+  },
+  "bugs": "https://github.com/blaryjp/@@APPNAME@@/issues",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:blaryjp/@@APPNAME@@.git"
+  },
+  "devDependencies": {
+    "json3": "~3.3.1",
+    "es5-shim": "~3.4.0",
+    "angular": "~1.2",
+    "bootstrap": "~3.1",
+    "angular-bootstrap": "~0.10.0",
+    "angular-ui-router": "~0.2"
+  },
+  "dependencies": {}
+}
